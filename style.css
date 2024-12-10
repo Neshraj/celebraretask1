@@ -6,6 +6,7 @@
 :root {
   --border: 0px solid #000;
   --selected: 0px solid red;
+  --res : 5px solid #000
 }
 
 #head1 {
@@ -839,6 +840,8 @@
   gap: 50px;
   margin-top: 200px;
   padding-bottom: 500px;
+  position: relative;
+  overflow-x: hidden;
 }
 
 .part8div1 {
@@ -938,7 +941,7 @@
   padding: 50px;
   margin: auto;
   position: absolute;
-  top: 6980px;
+  top: 6940px;
   left: 100px;
 }
 
@@ -1082,11 +1085,11 @@ footer {
 #part10toprightleftp5 {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 32px;
-  letter-spacing: 0.04em;
-  color: #959595;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #d9d9d9;
 }
 
 #part10toprightrightp2,
@@ -1095,11 +1098,11 @@ footer {
 #part10toprightrightp5 {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 32px;
-  letter-spacing: 0.04em;
-  color: #959595;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #d9d9d9;
 }
 
 #lastdiv {
@@ -1221,3 +1224,62 @@ footer {
   top: 200px;
   border-radius: 50%;
 }
+
+#elips12 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 1250px;
+  top: 50px;
+  border-radius: 50%;
+}
+
+#elips13{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: -80px;
+  top: 800px;
+  border-radius: 50%;
+}
+
+#elips14{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: -80px;
+  top: 0px;
+  border-radius: 50%;
+}
+
+
+::-webkit-scrollbar {
+  width: 20px;
+  
+}
+
+::-webkit-scrollbar-track {
+  background-color: #d9d9d9;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4dad5bcd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #316f3acd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
